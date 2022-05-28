@@ -1,0 +1,39 @@
+[
+    {
+      "key": 101,
+      "name": "Aurna Watch",
+      "details": "It is a niche website project of the watch. Here registered users can order watches and manage their orders.",
+      "img": "https://i.ibb.co/sqj78rB/3-D-Web-Presentation-Mock-Up.jpg"
+    },
+    
+    {
+      "key": 102,
+      "name": "Chiropractic Care",
+      "details": "It is a Healthcare Service website where users can see the details of a service as well as book them.",
+      "img": "https://i.ibb.co/SmsgwCm/3-D-Web-Presentation-Mock-Up-Recovered.jpg"
+    },
+    {
+      "key": 103,
+      "name": "Atlantic Cliffs",
+      "details": "It is a delivery service website programmed with order add and remove functionality.",
+      "img": "https://i.ibb.co/54bVyv1/Web-Page-PSD-Mockup.jpg"
+    },
+    {
+      "key": 104,
+      "name": "Pacific Cliff",
+      "details": "It is a delivery service website created only with html and css and also included a admin panel design.",
+      "img": "https://i.ibb.co/Ht9jw72/Web-Page-PSD-Mockup.jpg"
+    },  
+    {
+      "key": 105,
+      "name": "UN Donate",
+      "details": "UN Donate is a donation based website. Here you can add the agencies to the list for donation.",
+      "img": "https://i.ibb.co/YkH8F3j/Perspective-Web-Design-Mockup.png"
+    },  
+    {
+      "key": 106,
+      "name": "University of Anyage",
+      "details": "University of any age is a concept website where anyone can admit and learn. Age is not a factor.",
+      "img": "https://i.ibb.co/y6pXWKn/Perspective-Web-Design-Mockup.png"
+    }
+]

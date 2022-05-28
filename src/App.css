@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: #323949;
+}
+.my-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px 70px 30px 70px;
+  border: 10px solid #219f94;
+  filter: grayscale(100%);
+  transition: filter 1s ease-in-out;
+}
+.my-img:hover {
+  filter: grayscale(0);
+}
+.myNav {
+  background: rgb(76, 82, 101);
+  background: radial-gradient(
+    circle,
+    rgba(76, 82, 101, 1) 0%,
+    rgba(61, 62, 80, 1) 100%
+  );
+  /* margin-top: 10px; */
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 10px #219f94;
+}
+.myMenu {
+  color: #f4f6ff !important;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #219f94;
+  margin-left: 20px;
+  border-radius: 30px 70px 30px 70px;
+  padding: 3px 20px !important;
+  transition: all 0.4s ease-out;
+}
+.myMenu:hover {
+  box-shadow: 0 0 10px #f4f6ff inset;
+}
+.myMenu2 {
+  color: #f4f6ff !important;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #219f94;
+  border-radius: 30px 70px 30px 70px;
+  padding: 3px 30px !important;
+  transition: all 0.4s ease-out;
+}
+.myMenu2:hover {
+  box-shadow: 0 0 10px #f4f6ff inset;
+}
+.title-color {
+  color: #219f94;
+}
+.subTitle-color {
+  color: #92a9bd;
+}
+.title-shadow {
+  /* text-shadow: 0 0 10px #f4f6ff; */
+  color: #bebebe;
+}
+.shape1 {
+  position: absolute;
+  height: auto;
+  width: 300px;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.shape2 {
+  position: absolute;
+  height: auto;
+  width: 300px;
+  opacity: 0.3;
+  top: 30%;
+  left: 20%;
+  z-index: -2;
+}
+.shape3 {
+  position: absolute;
+  mix-blend-mode: multiply;
+  height: auto;
+  width: 30%;
+  opacity: 0.3;
+  top: 0%;
+  right: 0%;
+  z-index: -2;
+}
+.shape4 {
+  position: absolute;
+  mix-blend-mode: multiply;
+  height: auto;
+  width: 30%;
+  opacity: 0.3;
+  top: 150%;
+  left: 0%;
+  transform: rotate(180deg);
+  z-index: -2;
+}
+.shape5 {
+  position: absolute;
+  mix-blend-mode: multiply;
+  height: auto;
+  width: 30%;
+  opacity: 0.3;
+  top: 200%;
+  right: 0%;
+  z-index: -2;
+}
+hr {
+  height: 5px !important;
+  background-color: #219f94;
+  width: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #219f94;
+  border-radius: 10px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .myMenu {
+    margin-bottom: 20px;
+  }
+  .mobileNav {
+    text-align: center;
+    width: 50%;
+  }
+  .myMenu2 {
+    font-size: 16px;
+    padding: 3px 15px !important;
+  }
+  .shape3 {
+    width: 50%;
+    top: 80%;
+  }
+  .shape4 {
+    display: none;
+  }
+  .shape5 {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
 }
