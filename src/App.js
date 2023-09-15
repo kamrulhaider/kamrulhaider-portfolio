@@ -1,14 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './App.css';
-import About from './pages/About/About';
-import Blogs from './pages/Blogs/Blogs';
-import Details from './pages/Details/Details';
-import Home from './pages/Home/Home/Home';
-import Projects from './pages/Home/Projects/Projects';
-import Footer from './pages/Shared/Footer/Footer';
-import Header from './pages/Shared/Header/Header';
-import NotFound from './pages/NotFound/NotFound';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./App.css";
+import About from "./pages/About/About";
+import Blogs from "./pages/Blogs/Blogs";
+import Details from "./pages/Details/Details";
+import Home from "./pages/Home/Home/Home";
+import Footer from "./pages/Shared/Footer/Footer";
+import Header from "./pages/Shared/Header/Header";
+import NotFound from "./pages/NotFound/NotFound";
+import AllProject from "./pages/AllProject/AllProject";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Home></Home>
         </Route>
         <Route exact path="/projects">
-          <Projects></Projects>
+          <AllProject />
         </Route>
         <Route exact path="/details/:projectId">
           <Details></Details>

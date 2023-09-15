@@ -6,16 +6,22 @@
 body {
   background-color: #323949;
 }
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .my-img {
   height: 300px;
   width: 300px;
   border-radius: 30px 70px 30px 70px;
   border: 10px solid #219f94;
-  filter: grayscale(100%);
-  transition: filter 1s ease-in-out;
-}
-.my-img:hover {
-  filter: grayscale(0);
 }
 .myNav {
   background: rgb(76, 82, 101);
@@ -137,6 +143,9 @@ hr {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  .hero-section {
+    margin-top: 70px;
+  }
   .myMenu {
     margin-bottom: 20px;
   }
@@ -162,4 +171,26 @@ hr {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-section {
+    margin-top: 70px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-section {
+    margin-top: 70px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*Extra extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
 }

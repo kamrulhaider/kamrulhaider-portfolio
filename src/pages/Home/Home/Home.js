@@ -12,8 +12,8 @@ const Home = () => {
       <img className="shape4" src={shape1} alt="" />
       <img className="shape5" src={shape2} alt="" />
       <Banner></Banner>
+      <Projects homeRoute={true}></Projects>
       <Technology></Technology>
-      <Projects></Projects>
       <Contact></Contact>
     </div>
   );
