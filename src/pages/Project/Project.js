@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Project.css";
 
 const Project = (props) => {
-  const { mockimgUrl, name, details } = props.project;
+  const { mockimgUrl, name, details, _id } = props.project;
   return (
     <Col>
       {!props.project ? (
@@ -17,7 +17,7 @@ const Project = (props) => {
           <div className="image__overlay image__overlay--primary">
             <h3 className="title-color fw-bold">{name}</h3>
             <p className="subTitle-color">{details.slice(0, 110)}...</p>
-            <Link className="btn myMenu3 ms-0" to={`/details/`}>
+            <Link className="btn myMenu3 ms-0" to={`/details/${_id}`}>
               Details
             </Link>
           </div>

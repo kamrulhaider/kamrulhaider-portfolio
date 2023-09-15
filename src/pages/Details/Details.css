@@ -1,27 +1,32 @@
-.screenshot {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 0px;
+.mbl-img-div {
+  max-height: 350px;
+  overflow-y: scroll;
   border-radius: 10px;
-  transition: background-position 7s ease-in-out;
-}
-.screenshot:hover {
-  background-position: 50% 100%;
 }
 .mbl-img {
+  display: block;
+}
+.screenshot {
   display: none;
 }
+.content-details {
+  animation: reveal 2s linear forwards;
+  opacity: 0;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+  100% {
+    opacity: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
 @media (max-width: 575.98px) {
   .mbl-img-div {
     height: 300px;
-    overflow-y: scroll;
-    border-radius: 10px;
-  }
-  .mbl-img {
-    display: block;
-  }
-  .screenshot {
-    display: none;
   }
 }

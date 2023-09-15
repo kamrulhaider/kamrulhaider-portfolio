@@ -56,15 +56,15 @@ function Technology() {
     },
   ];
   return (
-    <div className="container my-3 mb-5">
+    <div className="mb-5 pb-5">
       <div className="d-flex flex-column align-items-center mb-3">
-        <h2 className="fw-bold text-center title-color mb-0">
-          My Skills & Familiarity
+        <h2 className="fw-bold text-center title-color mb-0 mt-5">
+          Skills & Familiarity
         </h2>
         <hr />
         <p className="text-center subTitle-color mb-3">
-          Below is the list of skills and technologies that I used till now. The
-          assumptions are made based on my thinking and confidence.
+          Below is the list of skills and technologies that I have used until
+          now. The assumptions are made based on my thinking and confidence.
         </p>
       </div>
       <div className="row">
