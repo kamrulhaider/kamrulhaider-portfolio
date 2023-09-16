@@ -5,7 +5,9 @@ import "./Projects.css";
 
 const Projects = ({ homeRoute, loading, error, projects }) => {
   return (
-    <div className={`${homeRoute ? "mb-5 pb-5" : "header-margin"}`}>
+    <div
+      className={`${homeRoute ? "mb-5 pb-5 mt-5 mt-lg-0" : "header-margin"}`}
+    >
       <div className="d-flex flex-column align-items-center mb-3">
         <h2 className="fw-bold text-center title-color mb-0">
           {homeRoute ? "Top Projects" : "Projects List"}

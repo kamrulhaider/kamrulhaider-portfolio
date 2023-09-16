@@ -1,3 +1,15 @@
-.tech {
-  height: 10px;
+.progress-container {
+  background-color: #92a9bd;
+  border-radius: 30px 70px 30px 70px;
+}
+.custom-progress-bar {
+  background-color: #219f94;
+  border-radius: 30px 70px 30px 70px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.progress-odd {
+  text-align: right;
+  margin-left: 0;
 }

@@ -123,6 +123,9 @@ hr {
   background-color: #219f94;
   width: 100px;
 }
+.width-custom {
+  width: 60%;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -167,6 +170,9 @@ hr {
   .shape5 {
     display: none;
   }
+  .width-custom {
+    width: auto;
+  }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -174,12 +180,18 @@ hr {
   .hero-section {
     margin-top: 70px;
   }
+  .width-custom {
+    width: auto;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero-section {
     margin-top: 70px;
+  }
+  .width-custom {
+    width: 80%;
   }
 }
 
